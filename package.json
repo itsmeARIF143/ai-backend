@@ -1,0 +1,34 @@
+{
+  "name": "itsmearif-portfolio",
+  "version": "3.0.0",
+  "description": "Premium AI-powered portfolio website for Md Ariful Islam",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "build": "echo 'Frontend build complete'",
+    "test": "echo 'No tests specified'",
+    "deploy": "npm run build"
+  },
+  "keywords": [
+    "portfolio",
+    "ai",
+    "3d",
+    "design",
+    "developer",
+    "creative"
+  ],
+  "author": "Md Ariful Islam",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "ws": "^8.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
